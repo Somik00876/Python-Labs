@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8dff17cb-df57-4c33-aa6f-6090f7f2891a</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>Python_lab__3.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>Task_1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Python lab №3</Name>
+    <Name>Lab №3</Name>
     <RootNamespace>Python lab №3</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -21,7 +22,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Python_lab__3.py" />
+    <Compile Include="Task_1.py" />
+    <Compile Include="Task_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Task_3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Task_4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Task_Var_1.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
