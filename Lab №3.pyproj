@@ -5,7 +5,7 @@
     <ProjectGuid>8dff17cb-df57-4c33-aa6f-6090f7f2891a</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Task_1.py</StartupFile>
+    <StartupFile>Laboratory_3\Task_1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,19 +22,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Task_1.py" />
-    <Compile Include="Task_2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Task_3.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Task_4.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Task_Var_1.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Folder Include="Laboratory_3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Laboratory_3\Task_1.py" />
+    <Compile Include="Laboratory_3\Task_2.py" />
+    <Compile Include="Laboratory_3\Task_3.py" />
+    <Compile Include="Laboratory_3\Task_4.py" />
+    <Compile Include="Laboratory_3\Task_Var_1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
